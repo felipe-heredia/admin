@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_hero_heroes",
+  "info": {
+    "name": "Hero",
+    "icon": "award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "presentation": {
+      "type": "richtext",
+      "required": true,
+      "unique": true
+    }
+  }
+}
