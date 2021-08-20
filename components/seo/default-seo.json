@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_seo_seos",
+  "collectionName": "components_seo_default_seos",
   "info": {
-    "name": "Seo",
-    "icon": "hashtag",
-    "description": ""
+    "name": "defaultSeo",
+    "icon": "asterisk"
   },
   "options": {},
   "attributes": {
@@ -17,7 +16,7 @@
       "required": true,
       "unique": true
     },
-    "image": {
+    "shareImage": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
