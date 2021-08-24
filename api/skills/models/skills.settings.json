@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "skill",
   "info": {
-    "name": "Skills"
+    "name": "Skills",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,14 +18,9 @@
       "unique": true
     },
     "icon": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
+      "type": "string",
       "required": true,
-      "pluginOptions": {}
+      "unique": true
     }
   }
 }
