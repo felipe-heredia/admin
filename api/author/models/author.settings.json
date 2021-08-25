@@ -23,7 +23,7 @@
       "unique": true
     },
     "avatar": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
