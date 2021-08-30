@@ -17,16 +17,6 @@
       "required": true,
       "unique": true
     },
-    "favicon": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
-    },
     "defaultSeo": {
       "type": "component",
       "repeatable": false,
